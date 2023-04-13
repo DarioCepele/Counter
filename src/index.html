@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
     <link href="/dist/output.css" rel="stylesheet">
     <title>Counter</title>
 </head>
@@ -12,13 +15,15 @@
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full bg-yellow overflow-hidden bg-fixed">
             <div class="flex justify-center items-center h-full">
                 <div class="text-white ">
-                    <p class="value font-semibold text-5xl md:text-8xl lg:text-8xl"></p>
-                    <button class="text-6xl align-middle mt-6 mb-1 h-16 w-64 border-2 border-blue bg-blue" onclick="increment()">+</button> <br>
-                    <button class="h-16 w-64 border-2 border-blue bg-blue" onclick="decrement()">-</button>
+                    <h1 class="mb-20 text-8xl font-grotesk">Counter Js</h1>
+                    <p class="value font-semibold text-4xl md:text-8xl lg:text-8xl font-grotesk"></p>
+                    <button class="text-5xl rounded-lg mt-12 mb-1 h-16 w-80 border-2 border-blue bg-blue font-grotesk" onclick="increment()">+</button> <br>
+                    <button class="text-5xl rounded-lg mt-2 h-16 w-80 border-2 border-blue bg-blue font-grotesk" onclick="decrement()">-</button>
                 </div>
             </div>
         </div>
     </div>
+    
     <script src="js/script.js"></script>
 </body>
 </html>

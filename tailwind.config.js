@@ -6,9 +6,12 @@ module.exports = {
     colors: {
       current: 'currentColor',
       'white': '#ffffff',
-      'yellow': '#FF9F1C',
-      'blue': '#011627',
+      'yellow': '#FEA82F',
+      'blue': '#071E22',
       'red': '#ff0000'
+    },
+    fontFamily: {
+      'grotesk': ['"Ultra"', 'sans-serif']
     }
   },
   plugins: [],
