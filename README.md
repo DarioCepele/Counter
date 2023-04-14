@@ -3,9 +3,13 @@
 
 [![NPM Version][npm-image]][npm-url]
 
-One to two paragraph statement about your product and what it does.
+Counter js allows you to count quickly and with an eye toward aesthetics
 
-![](header.png)
+## Test my app
+
+```sh
+ https://counter-d252d.web.app/
+```
 
 ## Installation
 
