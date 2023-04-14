@@ -7,6 +7,8 @@ Counter js allows you to count quickly and with an eye toward aesthetics
 
 ## Test my app
 
+where you want :smiley:
+
 ```sh
  https://counter-d252d.web.app/
 ```
