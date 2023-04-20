@@ -10,7 +10,7 @@ counter.innerText = 0;
 incrementButton.innerHTML = "+";
 decreaseButton.innerHTML = "-";
 
-// Function to append items and load style
+// Function to append items and Tailwind CSS class
 document.addEventListener("DOMContentLoaded", function () {
     div.appendChild(counter);
     div.appendChild(incrementButton);
